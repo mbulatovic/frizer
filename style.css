@@ -1,10 +1,12 @@
 #carousel-example-generic {
     width:1920px;
-    margin: -20px auto;
+    margin: -22px auto;
 }
 
-#KV{
-    height: 600px;
+
+
+.navbar-brand {
+     padding: 5px 30px;
 }
 
 
@@ -23,9 +25,23 @@
     
 }
 
-/*.navbar-default{
-    background-color: aquamarine;
-}*/
+.navbar-default{
+    background-color: mediumpurple;
+}
+
+.navbar-default .navbar-nav .active a {
+    background: purple;
+    color: white;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+    background: purple;
+    color: white;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
 
 .row {
     width: 1280px;
@@ -55,7 +71,7 @@ panel-title {
 }
 
 .panel-default .panel-heading h4{
-    font-size: 20px;
+    font-size: 16px;
     color:white;
     text-decoration: none;
 }
