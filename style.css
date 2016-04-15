@@ -83,10 +83,8 @@ panel-title {
 
 footer{
     background-color:#212121;
-    height: auto;
-    width: auto;
+    height: 220px;
     color: white;
-    border-top: 1px solid black;
     
 }
 
