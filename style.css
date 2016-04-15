@@ -44,8 +44,13 @@
 }
 
 .row {
-    width: 1280px;
+    /*width: 1280px;*/
     margin: 50px auto;
+    
+}
+
+#box {
+    width: 1280px;
 }
 
 .offer {
@@ -74,4 +79,35 @@ panel-title {
     font-size: 16px;
     color:white;
     text-decoration: none;
+}
+
+footer{
+    background-color:#212121;
+    height: auto;
+    width: auto;
+    color: white;
+    border-top: 1px solid black;
+    
+}
+
+h4 {
+    font-size: 16px;
+}
+
+a {
+    color:mediumpurple;
+}
+
+.btn-primary {
+    background-color: purple;
+    float: right;
+}
+
+.btn-primary:hover {
+    background-color:mediumpurple;
+}
+
+#faq{
+    margin: 0 auto;
+    width: 1280px;
 }
